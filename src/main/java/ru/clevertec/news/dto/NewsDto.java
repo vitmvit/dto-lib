@@ -19,10 +19,7 @@ public class NewsDto {
 
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS")
     private LocalDateTime time;
-
     private String title;
-
     private String text;
-
     private List<CommentDto> comments;
 }
