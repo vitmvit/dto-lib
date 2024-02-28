@@ -5,6 +5,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * DTO объект для создания новости
+ */
 @Getter
 @Setter
 @NoArgsConstructor
@@ -13,4 +16,5 @@ public class NewsCreateDto {
 
     private String title;
     private String text;
+    private Long userId;
 }

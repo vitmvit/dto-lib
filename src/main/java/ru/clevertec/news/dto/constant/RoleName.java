@@ -2,6 +2,10 @@ package ru.clevertec.news.dto.constant;
 
 import lombok.Getter;
 
+/**
+ * Enum ролей пользователей
+ */
+
 @Getter
 public enum RoleName {
     ADMIN("ADMIN"),

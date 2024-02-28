@@ -6,6 +6,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import ru.clevertec.news.dto.create.CommentCreateDto;
 
+/**
+ * DTO объект для изменения комментария
+ */
 @Setter
 @Getter
 @NoArgsConstructor

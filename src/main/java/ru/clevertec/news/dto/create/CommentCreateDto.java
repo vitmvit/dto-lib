@@ -5,6 +5,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * DTO объект для создания комментария
+ */
 @Getter
 @Setter
 @NoArgsConstructor
