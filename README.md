@@ -8,6 +8,13 @@ maven репозиторий.
 
 ## Состав
 
+для пагинации:
+
+- PageContentDto
+- PageDto
+- PageParamDto
+- PageUtils
+
 news-service:
 
 - NewsDto

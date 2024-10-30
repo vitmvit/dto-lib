@@ -23,6 +23,7 @@ publishing {
 }
 
 dependencies {
+    implementation 'org.springframework.data:spring-data-commons:3.2.1'
     implementation "com.fasterxml.jackson.core:jackson-databind:2.16.1"
 }
 
